@@ -57,8 +57,8 @@
                             <td>{$row['empid']}</td>
                             <td>{$row['name']}</td>
                             <td>{$row['pnumber']}</td>
-                            <td>{$row['pw']}</td>
                             <td>{$row['age']}</td>
+                            <td>{$row['pw']}</td>
                             <td>
                                 <a href='edit_employee.php?empid={$row['empid']}' class='btn btn-warning btn-sm'>Edit</a>
                                 <a href='delete_employee.php?empid={$row['empid']}' class='btn btn-danger btn-sm'>Delete</a>
